@@ -3,7 +3,7 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import cors from "cors";
-const dotenv = require("dotenv");
+import dotenv from "dotenv";
 dotenv.config({ path: "./config.env" });
 
 const app = express();
